@@ -179,3 +179,7 @@ Route::put("m_filetype/{id}", "MFiletypesController@update");
 //destroy
 Route::delete("m_filetype/{id}", "MFiletypesController@destroy");
 //=======================================================================
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

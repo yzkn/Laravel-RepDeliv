@@ -57,3 +57,11 @@ $ php artisan db:seed
  OR
 $ php artisan db:seed --class="***TableSeeder"
 ```
+
+### ユーザー認証を追加
+
+```ps
+$ composer require laravel/ui
+$ php artisan ui vue --auth
+$ php artisan migrate
+```
